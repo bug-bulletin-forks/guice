@@ -456,7 +456,7 @@ public class BinderTest extends TestCase {
   }
 
   /**
-   * Untargetted bindings should follow @ImplementedBy and @ProvidedBy annotations if they exist.
+   * Untargeted bindings should follow @ImplementedBy and @ProvidedBy annotations if they exist.
    * Otherwise the class should be constructed directly.
    */
   public void testUntargettedBinding() {
